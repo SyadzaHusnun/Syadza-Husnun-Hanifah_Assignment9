@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Navigation */
+nav {
+    position: fixed;
+    background-color: #020056;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+}
+
+nav a {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+/* BERANDA */
+/* Cover */
+.cover {
+    position: relative;
+}
+
+.cover img {
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+}
+
+.cover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+/* Header */
+header {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+
+/* Text Latar Belakang */
+#judul-latar {
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+#latar-belakang {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+section {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+/* Table */
+#judul-table {
+    text-align: center;
+}
+
+#bentik {
+    width: 40%;
+    margin: 10px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#thead {
+    color: white;
+    background-color: black;
+}
+
+/* TENTANG SAYA */
+/* Cover */
+.cover2 {
+    position: relative;
+}
+
+.cover2 img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.cover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+/* Label */
+.form-komentar {
+    width: 97%; 
+    margin: auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.form-komentar h4 {
+    text-align: center;
+}
+
+label {
+    font-size: 1rem;
+    display: block;
+    text-align: left;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 7px;
+    margin-top: 5px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+button {
+    width: 100%;
+    padding: 7px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+#judul {
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+hr {
+    border: 1px solid #020056;
+}
+
+.container-flex {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-flex img {
+    width: 90%;
+    border: 1px solid black;
+}
+
+.container-flex div {
+    text-align: center;
+}
+
+/* Table */
+#judul-sampel {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+#table-sampel {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#judul-peta {
+    text-align: center;
+}
+
+#peta-bentik {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#peta-bentik img {
+    width: 60%;
+    border: 1px solid black;
+}
+
+/* Footer */
+footer {
+    color: white;
+    background-color: #020056;
+    font-size: 1rem;
+    margin-top: 20px;
+    width: 100vw;
+    padding: 10px;
+    text-align: center;
+}
